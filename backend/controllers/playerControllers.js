@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-import { PlayerSchema } from "../models/playerModel";
+import { PlayerSchema } from "../models/playerModel.js";
 
 const Player = mongoose.model('Player', PlayerSchema);
 
