@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import bodyParser from "body-parser";
-import routes from './routes/soccerRoutes';
+import routes from './routes/soccerRoutes.js';
 
 const app = express();
 const PORT = 3000;
