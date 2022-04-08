@@ -1,4 +1,4 @@
-import { addNewPlayer} from '../controllers/playerControllers';
+import { addNewPlayer} from '../controllers/playerControllers.js';
 
 const routes = (app) => {
   app.route('/players')
